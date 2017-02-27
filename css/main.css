@@ -1,103 +1,32 @@
-		/* Reset CSS
-		 * --------------------------------------- */
-		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
-		form,fieldset,input,textarea,p,blockquote,th,td {
-		    padding: 0;
-		    margin: 0;
-		}
-		a{
-			text-decoration:none;
-		}
-		table {
-		    border-spacing: 0;
-		}
-		fieldset,img {
-		    border: 0;
-		}
-		address,caption,cite,code,dfn,em,strong,th,var {
-		    font-weight: normal;
-		    font-style: normal;
-		}
-		strong{
-			font-weight: bold;
-		}
-		ol,ul {
-		    list-style: none;
-		    margin:0;
-		    padding:0;
-		}
-		caption,th {
-		    text-align: left;
+body {margin:0;}
 
-		}
-		h1,h2,h3,h4,h5,h6 {
-		    font-weight: normal;
-		    font-size: 100%;
-		    margin:0;
-		    padding:0;
-		    color:#444;
-		}
-		q:before,q:after {
-		    content:'';
-		}
-		abbr,acronym { border: 0;
-		}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
+li {
+    float: left;
+}
 
-		/* Custom CSS
-		 * --------------------------------------- */
-		body{
-			font-family: arial,helvetica;
-			color: #F2F2F2;
-		}
-		h1{
-			font-size: 6em;
-		}
-		p{
-			font-size: 2em;
-		}
-		.content{
-			position: relative;
-			top: 50%;
-			transform: translateY(-50%);
-			text-align: center;
-		}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0px16px;
+    text-decoration: none;
+}
 
-		/* Section 1
-		 * --------------------------------------- */
-		#section1{
-			background-color: #BFDA00;
-		}
-		#section1 h1{
-			color: #444;
-		}
-		#section1 p{
-			color: #333;
-			opacity: 0.4;
-		}
+li a:hover:not(.active) {
+    background-color: #111;
+}
 
-
-		/* Section 2
-		 * --------------------------------------- */
-		#section2{
-			background-color: #2EBE21;
-		}
-		#section2 h1{
-			color: #fff;
-		}
-		#section2 p{
-			opacity: 0.8;
-		}
-
-
-		/* Section 3
-		 * --------------------------------------- */
-		#section3{
-			background-color: #2C3E50;
-		}
-		#section3 h1{
-			color: #F2F2F2;
-		}
-		#section3 p{
-			opacity: 0.6;
-		}
+.active {
+    background-color: #4CAF50;
+}
