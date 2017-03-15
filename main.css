@@ -8,6 +8,9 @@ html, body {
 	margin:0;
     padding:0;
 }
+p{
+	line-height:1.375em;
+}
 h1 {
 	font-size: 3em;
 	light-height:1.05em;
@@ -59,7 +62,8 @@ header {
 	text-align:center;
 	}
 .banner{
-	background-color:#aaa; 
+	background-image:url(http://orig07.deviantart.net/2eef/f/2014/308/7/0/fishing_for_ideas_by_lapin_de_fou-d8431ax.jpg);
+    background-attachment: fixed;
 	height:600px; 
 	width:auto;
 	}
