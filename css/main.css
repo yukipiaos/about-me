@@ -49,9 +49,8 @@ header {
 	vertical-align:middle;
 	background-color:#000; 
 	height:100px; 
-	width:auto;
 }
-.breadcrumb {
+#breadcrumb {
 	margin:0;
     padding:0;
 	border: none;
@@ -60,15 +59,15 @@ header {
 	color:#FFF;
 	font-size:13px;
 	text-align:center;
+	display : flex;
+	align-items : center;
 	}
-.banner{
+#banner{
 	background-image:url(http://orig07.deviantart.net/2eef/f/2014/308/7/0/fishing_for_ideas_by_lapin_de_fou-d8431ax.jpg);
     background-attachment: fixed;
-	height:600px; 
-	width:auto;
+	height:800px; 
 	}
-.content-container{
+#content-container{
 	padding:20px;
 	margin:0 auto;
-	width: 1200px;
 	}
