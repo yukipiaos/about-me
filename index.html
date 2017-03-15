@@ -1,65 +1,28 @@
-<!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="UTF-8">
-<title>Page Title</title>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css" />
+<!-- meta-->
+<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="description" content="Testing Bootstrap"><meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- icons-->
+<title>testing Bootstrap</title>
+<!-- stylesheets-->
+<link rel="stylesheet"  href="main.css"/>
+<link rel="stylesheet"  href="responsive.css"/>
+
 </head>
 <body>
-<div style="position:fixed;top:50px;left:50px;color:white;z-index:999;" id="callbacksDiv"></div>
-	<ul id="menu">
-	<li data-menuanchor="firstPage" class=""><a href="#firstPage">First slide</a></li>
-	<li data-menuanchor="secondPage" class=""><a href="#secondPage">Second slide</a></li>
-	<li data-menuanchor="3rdPage" class="active"><a href="#3rdPage">Third slide</a></li>
-</ul>
-
-	<div id="fullpage">
-	<div class="section " id="section0">
-		<div class="content"><div class="section0bg">
-			<h1>Overview</h1>
-			<p>This is a test of using fullpage.js</p>
-		</div></div>
+<header>
+		<h2 style="color:#FFFFFF;">Header</h2>
+  <p style="color:#FFFFFF;">Header height is 100px.</p>
+</header>
+	
+    <div class="breadcrumb">home | breadcrumb | Text 14px Area height 30px</div>
+    
+    <div>
+    <div class="banner"><h1>BIGBIG BANNER</h1></div>
+    <div class="content-container">
+    <h1>Lorem Ipsum Dolor Sit Amet</h1>
+    <p>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+    </div>
 	</div>
-	<div class="section" id="section1">
-		<div class="slide" id="slide1">
-			<div class="content">
-				<h1>Test</h1>
-				<p>
-					Lorem Ipsum Dolor Sit Amet
-				</p>
-				<p>
-		      		Test test
-				</p>
-			</div>
-		</div>
-		<div class="slide" id="slide2">
-			<div class="content">
-				<h1>Slides too!</h1>
-			</div>
-		</div>
-		<div class="slide" id="slide2">
-			<div class="content">
-				<h1>More slides!</h1>
-			</div>
-		</div>
-	</div>
-	<div class="section" id="section2">
-		<div class="content">
-			<h1>Last Page</h1>
-			<p>Blach blah</p>
-		</div>
-	</div>
-</div>
-
-<script type="text/javascript" src="js/javascript.fullPage.js"></script>
-<script type="text/javascript">
-	fullpage.initialize('#fullpage', {
-		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-		menu: '#menu',
-		css3:true
-	});
-
-</script>
 </body>
 </html>
