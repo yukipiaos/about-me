@@ -13,26 +13,26 @@ p{
 }
 h1 {
 	font-size: 3em;
-	light-height:1.05em;
-	margin: 0;
+	line-height:1.05em;
+	margin:0;
 	padding:0;
 }
 h2 {
 	font-size: 2.25em;
-	light-height:1.25em;
-	margin: 0;
+	line-height:1.25em;
+	margin:0;
 	padding:0;
 }
 h3 {
 	font-size: 1.75em;
-	light-height:1.25em;;
-	margin: 0;
+	line-height:1.25em;;
+	margin:0;
 	padding:0;
 }
 h4 {
 	font-size: 1.125em;
-	light-height:1.2em;
-	margin: 0;
+	line-height:1.2em;
+	margin:0;
 	padding:0;
 }
 div {
@@ -50,6 +50,15 @@ header {
 	background-color:#000; 
 	height:100px; 
 }
+section{margin:0}
+footer{
+    position:relative;
+    bottom:0;
+    padding:20;
+    height:80px;
+    background-color: #000;
+    color: #fff;
+}
 #breadcrumb {
 	margin:0;
     padding:0;
@@ -63,11 +72,11 @@ header {
 	align-items : center;
 	}
 #banner{
-	background-image:url(http://orig07.deviantart.net/2eef/f/2014/308/7/0/fishing_for_ideas_by_lapin_de_fou-d8431ax.jpg);
-    background-attachment: fixed;
-	height:800px; 
+	background-image: url(http://orig07.deviantart.net/2eef/f/2014/308/7/0/fishing_for_ideas_by_lapin_de_fou-d8431ax.jpg);
+	background-size:cover;
+	height:40vw; 
 	}
 #content-container{
-	padding:20px;
-	margin:0 auto;
+	padding: 0 20px;
+	margin:auto ;
 	}
