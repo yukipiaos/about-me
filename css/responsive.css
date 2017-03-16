@@ -15,15 +15,19 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen and (max-width: 1680px) {
-	#banner{
-	height:650px; 
-	width:auto;
-	}
-}
 @media only screen and (max-width: 768px) {
+    /* For tablet and mobile phone columns: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+	#breadcrumb {
+	display:none;
+	}
 	#banner{
-	height:200px; 
-	width:auto;
+	height:56.25vw; 
 	}
 }
