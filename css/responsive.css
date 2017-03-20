@@ -20,6 +20,11 @@
     [class*="col-"] {
         width: 100%;
     }
+	#img-event{
+	width:46vw;
+	padding-bottom: 33vw;
+	margin-bottom:5px;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -29,5 +34,10 @@
 	}
 	#banner{
 	height:62.5vw; 
+	}
+	#img-event{
+	width:100vw;
+	padding-bottom: 75vw;
+	margin-bottom:0px;
 	}
 }
